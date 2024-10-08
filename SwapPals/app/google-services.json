@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69391094759",
+    "project_id": "swap-pals-app",
+    "storage_bucket": "swap-pals-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69391094759:android:e1a37e3846e0ab347d2342",
+        "android_client_info": {
+          "package_name": "com.example.swappals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69391094759-cdu5bk08kerdr80sh4insplu838pmcau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMXaLnkdpRxcLgT5bVj9k_4P27yUfpQYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69391094759-cdu5bk08kerdr80sh4insplu838pmcau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@color/purple_500"
+    android:layout_marginHorizontal="45dp"
+    android:layout_marginVertical="16dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+        <ImageView
+            android:id="@+id/imageViewItem"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img"
+            tools:layout_editor_absoluteY="33dp"
+            />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="8dp"
+            android:inputType="textPersonName"
+            android:text="Title:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="8dp"
+            android:text="Maserati MC20"
+            android:textColor="#64DF0A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="105dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Description:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="125dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="TextView"
+            android:textColor="#64DF0A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="127dp"
+            android:layout_marginLeft="110dp"
+            />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
